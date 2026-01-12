@@ -156,6 +156,40 @@ header
 }
 
 
+.sec3
+{
+    background-color: #252B42;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .box3
+    {
+        max-width: 1200px;
+        margin: auto;
+        
+        .listtop
+        {
+            text-align: center;
+        }
+
+        .dsafed
+        {
+            background-color: white;
+            width: 70%;
+            margin: auto;
+            padding: 40px 0px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            align-items: center;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+    }
+}
+
+
 
 
 
@@ -220,5 +254,18 @@ header
     {
         justify-content: start;
         width: 85%;
+    }
+
+    .dsafed
+    {
+        background-color: white;
+        margin: auto;
+        padding: 40px 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+        margin-top: 50px;
+        border-radius: 5px;
     }
 }
