@@ -93,6 +93,39 @@ header {
   z-index: 3;
 }
 
+.sec2 {
+  background-color: #252B42;
+  height: 721;
+  padding-bottom: 100px;
+}
+.sec2 .box2 {
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+  padding-top: 200px;
+}
+.sec2 .box2 .listb2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: center;
+}
+.sec2 .box2 .wrapdiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  gap: 20px;
+  margin-top: 50px;
+}
+.sec2 .box2 .wrapdiv .item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
 @media (max-width: 530px) {
   .navbar {
     padding: 20px;
@@ -128,5 +161,9 @@ header {
   }
   .herosec .blob {
     display: none;
+  }
+  .wrapdiv {
+    justify-content: start;
+    width: 85%;
   }
 }/*# sourceMappingURL=style.css.map */
