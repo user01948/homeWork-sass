@@ -178,6 +178,56 @@ header {
   border-radius: 10px;
 }
 
+.sec5 {
+  background-color: #252B42;
+  padding-top: 100px;
+}
+.sec5 .box5 {
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+}
+.sec5 .box5 .listb5 {
+  text-align: center;
+}
+.sec5 .box5 .bgsaged {
+  background-color: white;
+  border-radius: 10px;
+  height: 243px;
+  color: black;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.sec5 .box5 .bgsaged h2 {
+  color: #23A6F0;
+  font-weight: bold;
+}
+.sec5 .box5 .bgsaged .dsf {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sec5 .box5 .bgsaged .btndiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.sec5 .box5 .bgsaged .btndiv button {
+  padding: 15px 30px;
+  background-color: #23A6F0;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.sec5 .box5 .fff {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
 @media (max-width: 530px) {
   .navbar {
     padding: 20px;
@@ -242,5 +292,19 @@ header {
   }
   .sec4 .Download .c1 img {
     background: linear-gradient(black);
+  }
+  .sec5 {
+    height: 800px;
+  }
+  .sec5 .box5 .fff {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec5 .box5 .fff .bgsaged {
+    width: 90%;
+    gap: 10px;
+  }
+  .sec5 .box5 .fff .bgsaged .free {
+    padding-left: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
